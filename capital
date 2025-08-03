@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+
+    public static void main(String[] args){
+        Scanner input= new Scanner(System.in);
+        String st=input.nextLine();
+        String result=st.substring(0,1).toUpperCase()+st.substring(1);
+        System.out.println(result);
+
+    }
+
+}
